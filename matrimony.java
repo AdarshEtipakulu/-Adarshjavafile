@@ -10,14 +10,14 @@ public class Matrimony {
             if (age >= 21) {
                 System.out.println("Eligible for marriage");
             } else {
-                System.out.println("Not eligible for marriage (Age must be 21 or older)");
+                System.out.println("Not eligible for marriage ");
             }
         } 
         else if (gender.equalsIgnoreCase("female")) {
             if (age >= 18) {
                 System.out.println("Eligible for marriage");
             } else {
-                System.out.println("Not eligible for marriage (Age must be 18 or older)");
+                System.out.println("Not eligible for marriage ");
             }
         } 
         else {
