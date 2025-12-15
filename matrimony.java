@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Matrimony {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your gender (male/female):");
+        System.out.println("Enter your gender :");
         String gender = scanner.nextLine();
         System.out.println("Enter your age:");
         int age = scanner.nextInt();
